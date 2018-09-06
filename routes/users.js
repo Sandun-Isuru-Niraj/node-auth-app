@@ -8,7 +8,7 @@ router.get("", function (req,res) {
 
 router.get("/register", function (req,res) {
 
-    res.send("Hello Registers")
+    res.send("Welcome to Register")
 })
 
 module.exports = router;
