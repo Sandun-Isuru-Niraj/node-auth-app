@@ -6,7 +6,13 @@ router.get("", function (req,res) {
     res.send("Hello Users")
 })
 
-router.get("/register", function (req,res) {
+router.post("/register", function (req,res) {
+
+   console.log(req.body)
+
+})
+
+router.get("/login", function (req,res) {
 
     res.send("Welcome to Register")
 })
